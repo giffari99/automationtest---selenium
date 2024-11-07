@@ -19,10 +19,6 @@ public class LoginPage {
         driver.get("https://www.saucedemo.com/");
 
 
-        Utils.delay(2);
-        loginInvalidUser(driver, "standard_user","secret_saucee");
-        Utils.delay(2);
-
 
         //  Positive Login
         loginValidUser(driver, "standard_user", "secret_sauce");
